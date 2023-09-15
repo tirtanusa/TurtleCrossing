@@ -1,0 +1,41 @@
+Turtle Crossing
+
+In the beginning, we were given 4 files as a starter (car_manager, main, player, and scoreboard).
+In those file there are some variable that determine things like how fast the car and player move, how fast the car after finished 1 level, etc.
+So the first thing i want to make is the player class, since its the most straight forward.
+
+1. Player can only move forward at a specified speed.
+2. Player have a Turtle shape
+3. Player start at STARTING_POSITION (0,-280) every round.
+
+then , after that we can work on scoreboard
+
+1. Make a level text
+2. Make an update or a refresh function if the turtle pass the level
+
+then, we can start work at the car class, also make change in the previous class that we build before (if needed).
+so, what we need the car do is
+
+1. Generate
+2. Move from right to left at a specified speed
+3. Have a rectangle shape.
+4. Have a different random color each.
+5. Speed increase as the level increase.
+
+So for the Generate, i was loking at the snake project on how to generate the segment of the snake. Then with that i figure we can take that code
+to generate the car as well!!
+we can also take the logic to move the snake, tweak it a bit. then it can move. The random color is quite easy to make, just use the random modul.
+
+Then we Assemble all of the class in main.py
+it contains
+
+1. Collision Detector
+2. Finish Detection
+3. Game Over
+4. Generation delay
+
+so, in main.py it went smoothly until the Generation delay part. I had to google it and use Chat GPT.
+
+
+Overall i'm pretty impressed with my work today. I finish the project with the Expert difficulty (only look at the first step).
+
